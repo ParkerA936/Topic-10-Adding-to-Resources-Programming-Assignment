@@ -16,7 +16,7 @@ namespace Topic_10___Adding_to_Resources_Programming_Assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Topic10());
         }
     }
 }

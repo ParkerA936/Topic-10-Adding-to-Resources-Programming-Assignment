@@ -1,6 +1,6 @@
 ﻿namespace Topic_10___Adding_to_Resources_Programming_Assignment
 {
-    partial class Form1
+    partial class Topic10
     {
         /// <summary>
         /// Required designer variable.
@@ -28,106 +28,148 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnCPU = new System.Windows.Forms.Button();
+            this.btnRAM = new System.Windows.Forms.Button();
+            this.btnSSD = new System.Windows.Forms.Button();
+            this.btnPSU = new System.Windows.Forms.Button();
+            this.btnOutput = new System.Windows.Forms.Button();
+            this.btnInput = new System.Windows.Forms.Button();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.btnQuit = new System.Windows.Forms.Button();
+            this.imgPicture = new System.Windows.Forms.PictureBox();
+            this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPicture)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCPU
             // 
-            this.button1.Location = new System.Drawing.Point(29, 18);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 59);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCPU.Location = new System.Drawing.Point(29, 18);
+            this.btnCPU.Name = "btnCPU";
+            this.btnCPU.Size = new System.Drawing.Size(93, 59);
+            this.btnCPU.TabIndex = 0;
+            this.btnCPU.Text = "CPU";
+            this.btnCPU.UseVisualStyleBackColor = true;
+            this.btnCPU.Click += new System.EventHandler(this.btnCPU_Click);
             // 
-            // button2
+            // btnRAM
             // 
-            this.button2.Location = new System.Drawing.Point(29, 83);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 59);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRAM.Location = new System.Drawing.Point(29, 83);
+            this.btnRAM.Name = "btnRAM";
+            this.btnRAM.Size = new System.Drawing.Size(93, 59);
+            this.btnRAM.TabIndex = 1;
+            this.btnRAM.Text = "RAM";
+            this.btnRAM.UseVisualStyleBackColor = true;
+            this.btnRAM.Click += new System.EventHandler(this.btnRAM_Click);
             // 
-            // button3
+            // btnSSD
             // 
-            this.button3.Location = new System.Drawing.Point(29, 148);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 59);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSSD.Location = new System.Drawing.Point(29, 148);
+            this.btnSSD.Name = "btnSSD";
+            this.btnSSD.Size = new System.Drawing.Size(93, 59);
+            this.btnSSD.TabIndex = 2;
+            this.btnSSD.Text = "SSD";
+            this.btnSSD.UseVisualStyleBackColor = true;
+            this.btnSSD.Click += new System.EventHandler(this.btnSSD_Click);
             // 
-            // button4
+            // btnPSU
             // 
-            this.button4.Location = new System.Drawing.Point(29, 213);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(93, 59);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnPSU.Location = new System.Drawing.Point(29, 213);
+            this.btnPSU.Name = "btnPSU";
+            this.btnPSU.Size = new System.Drawing.Size(93, 59);
+            this.btnPSU.TabIndex = 3;
+            this.btnPSU.Text = "PSU";
+            this.btnPSU.UseVisualStyleBackColor = true;
+            this.btnPSU.Click += new System.EventHandler(this.btnPSU_Click);
             // 
-            // button5
+            // btnOutput
             // 
-            this.button5.Location = new System.Drawing.Point(29, 278);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(93, 59);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnOutput.Location = new System.Drawing.Point(29, 278);
+            this.btnOutput.Name = "btnOutput";
+            this.btnOutput.Size = new System.Drawing.Size(93, 59);
+            this.btnOutput.TabIndex = 4;
+            this.btnOutput.Text = "Output Devices";
+            this.btnOutput.UseVisualStyleBackColor = true;
+            this.btnOutput.Click += new System.EventHandler(this.btnOutput_Click);
             // 
-            // button6
+            // btnInput
             // 
-            this.button6.Location = new System.Drawing.Point(29, 343);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(93, 59);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnInput.Location = new System.Drawing.Point(29, 343);
+            this.btnInput.Name = "btnInput";
+            this.btnInput.Size = new System.Drawing.Size(93, 59);
+            this.btnInput.TabIndex = 5;
+            this.btnInput.Text = "Input Devices";
+            this.btnInput.UseVisualStyleBackColor = true;
+            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
-            // pictureBox1
+            // lblDescription
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(183, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(503, 211);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(195, 247);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(546, 83);
+            this.lblDescription.TabIndex = 7;
+            this.lblDescription.Visible = false;
             // 
-            // Form1
+            // btnQuit
+            // 
+            this.btnQuit.Font = new System.Drawing.Font("Mistral", 36F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuit.ForeColor = System.Drawing.Color.Red;
+            this.btnQuit.Location = new System.Drawing.Point(648, 333);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(110, 83);
+            this.btnQuit.TabIndex = 8;
+            this.btnQuit.Text = "QUIT";
+            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Visible = false;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
+            // 
+            // imgPicture
+            // 
+            this.imgPicture.Image = global::Topic_10___Adding_to_Resources_Programming_Assignment.Properties.Resources.SSD;
+            this.imgPicture.Location = new System.Drawing.Point(216, 29);
+            this.imgPicture.Name = "imgPicture";
+            this.imgPicture.Size = new System.Drawing.Size(503, 215);
+            this.imgPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgPicture.TabIndex = 6;
+            this.imgPicture.TabStop = false;
+            this.imgPicture.Visible = false;
+            // 
+            // Topic10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 418);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Controls.Add(this.btnQuit);
+            this.Controls.Add(this.lblDescription);
+            this.Controls.Add(this.imgPicture);
+            this.Controls.Add(this.btnInput);
+            this.Controls.Add(this.btnOutput);
+            this.Controls.Add(this.btnPSU);
+            this.Controls.Add(this.btnSSD);
+            this.Controls.Add(this.btnRAM);
+            this.Controls.Add(this.btnCPU);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Name = "Topic10";
+            this.Text = "Topic 10";
+            ((System.ComponentModel.ISupportInitialize)(this.imgPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnCPU;
+        private System.Windows.Forms.Button btnRAM;
+        private System.Windows.Forms.Button btnSSD;
+        private System.Windows.Forms.Button btnPSU;
+        private System.Windows.Forms.Button btnOutput;
+        private System.Windows.Forms.Button btnInput;
+        private System.Windows.Forms.PictureBox imgPicture;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.Button btnQuit;
+        private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
     }
 }
 

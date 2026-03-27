@@ -63,9 +63,9 @@ namespace Topic_10___Adding_to_Resources_Programming_Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _51OHIGS4wtL__AC_UF894_1000_QL80_ {
+        internal static System.Drawing.Bitmap CPU {
             get {
-                object obj = ResourceManager.GetObject("_51OHIGS4wtL__AC_UF894_1000_QL80_", resourceCulture);
+                object obj = ResourceManager.GetObject("CPU", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Topic_10___Adding_to_Resources_Programming_Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _81kuT3WzuBL {
+        internal static System.Drawing.Bitmap Input_Devices {
             get {
-                object obj = ResourceManager.GetObject("_81kuT3WzuBL", resourceCulture);
+                object obj = ResourceManager.GetObject("Input Devices", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Topic_10___Adding_to_Resources_Programming_Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Intel_Rocker_Lake_2_e1615908186584_820x461 {
+        internal static System.Drawing.Bitmap Output_Devices {
             get {
-                object obj = ResourceManager.GetObject("Intel_Rocker_Lake_2_e1615908186584_820x461", resourceCulture);
+                object obj = ResourceManager.GetObject("Output Devices", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,29 @@ namespace Topic_10___Adding_to_Resources_Programming_Assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap s_l1200 {
+        internal static System.Drawing.Bitmap PSU {
             get {
-                object obj = ResourceManager.GetObject("s_l1200", resourceCulture);
+                object obj = ResourceManager.GetObject("PSU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RAM {
+            get {
+                object obj = ResourceManager.GetObject("RAM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SSD {
+            get {
+                object obj = ResourceManager.GetObject("SSD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
